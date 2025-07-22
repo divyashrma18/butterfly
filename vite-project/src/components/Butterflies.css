@@ -1,0 +1,37 @@
+.butterfly-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.butterfly {
+  position: absolute;
+  width: 100px;
+}
+.b2-1-wrapper {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: scale(0.8) rotate(-30deg);
+}
+
+
+/* Butterfly 1 positions */
+
+.b1-1 { top: 10%; left: 90%; transform: scale(0.8); }
+.b1-2 { top: 30%; left: 20%; transform: scale(1); }
+.b1-3 { top: 90%; left: 10%; transform: scale(0.9); }
+
+/* Butterfly 2 positions */
+.b2-1 { top: 85%; right: 10%; transform: scale(1.1); }
+.b2-2 { top: 40%; right: 25%; transform: scale(0.9); }
+.b2-3 { top: 60%; right: 95%; transform: scale(1); }
+
+/* Butterfly 3 positions */
+.b3-1 { bottom: 20%; left: 30%; transform: scale(0.8); }
+.b3-2 { bottom: 45%; right: 6%; transform: scale(1); }
+.b3-3 { bottom: 5%; left: 50%; transform: scale(1.1); }
