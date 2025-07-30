@@ -6,8 +6,7 @@
   width: 1400px;
   margin-top: 20px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.2); /* translucent */
-  /* backdrop-filter: blur(10px); */
+  background: rgba(255, 255, 255, 0.2); 
   z-index: 1000;
   overflow: hidden;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -44,5 +43,5 @@
 }
 
 .nav-links li a:hover {
-  color: #4CAF50; /* botanical green hover */
+  color: #4CAF50; 
 }

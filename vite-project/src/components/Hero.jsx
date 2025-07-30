@@ -11,7 +11,7 @@ const section1RightRef = useRef(null);
 const isInViewRight = useInView(section1RightRef, { amount: 0.7, once: true });
   return (
    <>
-         <Butterflies /> {/* Add Lottie butterflies */}
+         <Butterflies /> 
 
     <div className="hero">
       <Navbar />
@@ -48,7 +48,6 @@ const isInViewRight = useInView(section1RightRef, { amount: 0.7, once: true });
     Step Into the Garden
   </motion.h1>
 
-  {/* break paragraph into lines to animate one-by-one */}
   {[
     "Let the colors of nature bloom around you.",
     "Each flower here tells a story — soft, wild, and full of life.",
@@ -95,11 +94,11 @@ const isInViewRight = useInView(section1RightRef, { amount: 0.7, once: true });
   </motion.h2>
 
   <motion.p
-    variants={{
-      hidden: { opacity: 0, y: 40 },
-      visible: { opacity: 1, y: 0 },
-    }}
-    transition={{ duration: 0.8, ease: 'easeOut' }}
+   variants={{
+    hidden : {opacity:0, y:40},
+    visible : {opacity:1 , y:0}
+   }}
+   transition={{duration:0.8 , ease:"easeOut"}}
   >
     As you move forward, feel the breeze rustle through the tall grass and hear
     the whispers of nature. This is the path where the garden begins to unfold.

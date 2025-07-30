@@ -14,9 +14,8 @@
   align-items: center;
   justify-content: start;
   overflow: hidden;
-  /* padding: 0 5%; */
   position: relative;
-  color: #000000; /* Adjust based on image */
+  color: #000000; 
 }
 
 .hero-content {
@@ -57,7 +56,7 @@
   gap: 100px;
   padding: 60px 100px;
   min-height: 60vh;
-  background-color: #e3f6f5; /* subtle garden-sky blue */
+  background-color: #e3f6f5; 
   box-sizing: border-box;
 }
 
@@ -76,7 +75,7 @@
 
 .section1-right h1 {
   font-size: 3rem;
-  color: #2d6a4f; /* deep green for garden tone */
+  color: #2d6a4f; 
   margin-bottom: 20px;
 }
 
@@ -89,7 +88,7 @@
 .section2 {
   height: 70vh;
   width: 1320px;
-  background-image: url('/images/section2.png'); /* Replace with your actual image path */
+  background-image: url('/images/section2.png'); 
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -102,7 +101,6 @@
 }
 
 .section2-content {
-  /* background: rgba(255, 255, 255, 0.8); */
   height: 250px;
   padding: 2rem 3rem;
   border-radius: 12px;
